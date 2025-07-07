@@ -3,9 +3,9 @@ import React from 'react';
 import { View, Text, FlatList, Image, TouchableOpacity, StyleSheet } from 'react-native';
 
 const animeList = [
-  { id: '1', title: 'Monogatari Series', image: require('./assets/MONO.jpg') },
-  { id: '2', title: 'Hibike! Euphonium', image: require('./assets/Hibimeshi.jpg') },
-  { id: '3', title: 'Zatsu Zatsu Life', image: require('./assets/zatsuu.jpg') },
+  { id: '1', title: 'Mono', image: require('./assets/MONO.jpg') },
+  { id: '2', title: 'HibiMeshi', image: require('./assets/Hibimeshi.jpg') },
+  { id: '3', title: 'Zatsu Tabi', image: require('./assets/zatsuu.jpg') },
 ];
 
 export default function HomeScreen({ navigation }) {
